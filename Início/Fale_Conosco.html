@@ -18,31 +18,36 @@
             <a href="../terminologias/Terminologias.html" class="mx-2 fw-bold" >Terminologias</a>
             <a href="../Início/Sobre_Nos.html" class="mx-2 fw-bold">Sobre Nós</a>
             <a href="../Início/Fale_Conosco.html" class="mx-2 fw-bold"><font color="orange">Fale conosco</font></a>
-            <a href="../tabela/index.html" class="px-2 fw-bold">Tabela Periódica</a>
+            <a href="../tabela/tabela.html" class="px-2 fw-bold">Tabela Periódica</a>
         </div>
     </header>
     </div>
     <!--Principal-->
-    <center>
-        <form action="" class="my-5 about" >
-            <h1>Fale Conosco</h1>
+        <form action="" class="my-5 about" style="margin-left: auto; margin-right: 30%; width: 487px;" >
+            <h1 class="fw-bold">Fale Conosco</h1>
             <div class="justify">
-                <label for="nome"><h6>Nome:</h6></label><br>
-                <input type="text" name="nome" size="50" width="40px"><br>
-                <label for="email"><h6>email:</h6></label><br>
-                <input type="text" name="email" size="50" width="40px">
-            </div>
+                <label for="nome" ><h5>Nome:</h5></label><br>
+                <input type="text"id="nome" name="nome" size="50" width="40px" placeholder="Digite seu nome."><br>
+                <label for="email"><h5>Email:</h5></label><br>
+                <input type="text" id="email" name="email" size="50" width="40px" placeholder="Digite seu Email.">
+            </div><br>
             <div class="justify">
-                <input type="radio" name="duvida">
+                <h5>Assunto:</h4>
+                <input type="radio" name="oque" id="duvida" value="duvida">
                 <label for="duvida">Dúvida</label><br>
-                <input type="radio" name="problema">
+                <input type="radio" name="oque" id="problema" value="problema">
                 <label for="problema">Problema no site</label><br>
-                <input type="radio" name="sugestao">
+                <input type="radio" name="oque" id="sugestao" value="sugestao">
                 <label for="sugestao">Sugestão</label><br>
-            </div>
-            
+            </div><br>
+            <div>
+                <h5>Descreva aqui:</h5>
+                <textarea name="descricao" placeholder="Descreva seu problema." id="descricao" style="min-width: 487px; min-height: 150px;"></textarea>
+            </div><br>
+                <div style="display: grid; grid-template-columns: 1fr 0.1fr 1fr;">
+                    <input type="submit"><div></div><input type="reset" placeholder="Redefinir">
+                </div>
         </form>
-    </center>
     <!--Footer-->
         <footer class="align-self-end fw-bold">
             <table>
