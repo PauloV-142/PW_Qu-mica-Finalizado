@@ -1,0 +1,252 @@
+.barra{
+    background-color: #034363;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 0.5%;
+    color: #e7f7ff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-top: ridge #034363 10px;
+    border-left: ridge #034363 10px;
+    border-bottom: groove #034363 10px;
+    border-right: groove #034363 10px;
+}
+.about{
+    height: 100vh;
+    width: 25%;
+}
+.links{
+    padding-left: 30px;
+    text-align: right;
+    margin-top: 20px;
+}
+.mr-20{
+    margin-right: 20%;
+}
+.links a{
+    display:inline-block;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: darkorange;
+}
+.pesquisa{
+    width: fit-content;
+    margin-right: 2%;
+    position: absolute;
+    right: 5%;
+}
+.pesquisa input {
+    background: white;
+    margin-top: 18px;
+}
+.titulo{
+    height: 100%;
+    margin-left: 2%;
+    margin-top: auto;
+}
+.left-spacing{
+    margin-left: 2%;
+}
+body{
+    background-color: #0084B8;
+    color: #e7f7ff;
+    min-height: 100%;
+    margin-bottom: 0px;
+}
+footer{
+    background-color: #034363;
+    height: 3in;
+    position: absolute;
+    height: fit-content;
+    padding-bottom: 5px;
+    color: #e7f7ff;
+    border-top: ridge #034363 12px;
+    border-left: ridge #034363 12px;
+    border-bottom: groove #034363 12px;
+    border-right: groove #034363 12px;
+    width: 100%;
+}
+.central{
+    width: 100%;
+}
+.fit-content{
+    width: fit-content;
+}
+.textoF{
+    padding: 5px;
+    height: 100%;
+}
+.ImagemC{
+    border-bottom:groove #034363 12px;
+}
+.Textoimagem{
+    color: #e7f7ff;
+    position: absolute;
+    justify-content: center; 
+    align-items: center;
+    z-index: 0;
+    height: fit-content;
+    background-image: radial-gradient(rgb(0, 0, 0,0.8), rgba(0,0,0,0.4));
+    border-radius: 40px;
+    padding: 20px;
+    transition: 5s;
+}
+
+.Textoimagem:hover{
+    background-image: radial-gradient(rgb(0, 0, 0,0.2), rgba(0,0,0,0.4));
+}
+.justify{
+    text-align: justify;
+}
+.text-center{
+    text-align: center;
+}
+.l1{
+    top: 200px;
+}
+.l2{
+    top: 500px;
+}
+.botao{
+    background-color: #034363;
+    color: #e7f7ff;
+    width: 37px;
+    min-height: 37px;
+}
+.botao:hover{
+    font-weight: bold;
+    border: solid #034363;
+}
+.aritgo{
+    width: 33%;
+}
+.horz{
+    float: left;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+} 
+.horz li{
+    float: left;
+    width: 100px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+li span{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.horz a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: darkorange;
+    cursor: pointer;
+}
+.search{
+    border-top: ridge #034363 10px;
+    border-left: ridge #034363 10px;
+    border-bottom: groove #034363 10px;
+    border-right: groove #034363 10px;
+    border-radius: 17px;
+}
+.bgimg{
+    /*min-height: 500px; */
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */                                                  
+    position: fixed; /* Stay in place */                                                    
+    z-index: 1; /* Sit on top */                                                    
+    padding-top: 100px; /* Location of the box */                                                   
+    left: 0;                                                    
+    top: 0;                                                 
+    width: 100%; /* Full width */                                                   
+    height: 100%; /* Full height */                                                 
+    overflow: auto; /* Enable scroll if needed */                                                   
+    background-color: rgb(0,0,0); /* Fallback color */                                                   
+    background-color: rgba(0,0,0,0.4); /* Black w/ opac*/  
+                                                      
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #0084B8;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    height: 80vh;
+    border-top: ridge #034363 10px;
+    border-left: ridge #034363 10px;
+    border-bottom: groove #034363 10px;
+    border-right: groove #034363 10px;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 830px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 5px 16px;
+    background-color: #034363;
+    color: white;
+    border-bottom: groove #034363 10px;
+    border-radius: 0px;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  /*.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }*/
+  .borda{
+    border-top: ridge #034363 10px;
+    border-left: ridge #034363 10px;
+    border-bottom: groove #034363 10px;
+    border-right: groove #034363 10px;
+  }
