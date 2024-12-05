@@ -5,6 +5,7 @@ var calcinacaoM = document.getElementById("calcinacaoM");
 var densidadeM = document.getElementById("densidadeM");
 var solubilidadeM = document.getElementById("solubilidadeM");
 var titulacaoM = document.getElementById("titulacaoM");
+var alcanosM = document.getElementById("alcanosM");
 // Get the button that opens the modal
 var Atomo = document.getElementById("Atomo");
 var bicarbonatos = document.getElementById("bicarbonatos");
@@ -12,6 +13,7 @@ var calcinacao = document.getElementById("calcinacao");
 var densidade = document.getElementById("densidade");
 var solubilidade = document.getElementById("solubilidade");
 var titulacao = document.getElementById("titulacao");
+var alcanos = document.getElementById("alcanos");
 
 // Get the <span> element that closes the modal
 var close = document.getElementsByClassName("close")[0];
@@ -20,6 +22,7 @@ var close3 = document.getElementsByClassName("close")[2];
 var close4 = document.getElementsByClassName("close")[3];
 var close5 = document.getElementsByClassName("close")[4];
 var close6 = document.getElementsByClassName("close")[5];
+var close7 = document.getElementsByClassName("close")[6];
 
 // When the user clicks the button, open the modal 
 Atomo.onclick = function() {
@@ -70,6 +73,14 @@ titulacao.onclick = function() {
     titulacaoM.style.display = "block";
   }
 }
+alcanos.onclick = function() {
+  if (alcanos.style.display == "block") {
+    alcanosM.style.display = "none";
+  }
+  else if (alcanosM.style.display == "none" || alcanosM.style.display == "") {
+    alcanosM.style.display = "block";
+  }
+}
 // When the user clicks on <span> (x), close the modal
 function closeAll(){
   AtomoM.style.display = "none";
@@ -78,6 +89,7 @@ function closeAll(){
   densidadeM.style.display = "none";
   solubilidadeM.style.display = "none";
   titulacaoM.style.display = "none";
+  alcanosM.style.display = "none";
 }
 close.onclick = function(){
   closeAll();
@@ -95,6 +107,9 @@ close5.onclick = function(){
   closeAll();
 }
 close6.onclick = function(){
+  closeAll();
+}
+close7.onclick = function(){
   closeAll();
 }
 
@@ -118,4 +133,8 @@ window.onclick = function(event) {
   else if (event.target == titulacaoM) {
     titulacaoM.style.display = "none";
   }
+  else if (event.target == alcanosM) {
+    alcanosM.style.display = "none";
+  }
 }
+//Os aldeídos são compostos orgânicos que apresentam o grupo carbonila na extremidade da cadeia.A numeração da cadeia dos aldeídos sempre começa da extremiCH3 CH3 dade que contém o grupo carbonila, por isso não é preciso indicar o 1.52 número do átomo de carbono que contém o grupo funcional.  
