@@ -137,9 +137,9 @@ footer{
     float: left;
     width: 100px;
     padding-bottom: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-right: 50px;
-    min-height: 190px;
+    min-height: 240px;
 }
 li span{
     display: block;
