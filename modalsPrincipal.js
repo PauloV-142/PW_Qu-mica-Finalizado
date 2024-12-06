@@ -374,22 +374,6 @@ window.onclick = function(event) {
     turbidimetriaM.style.display = "none";
   }
 }
-//cetonas digestor etilenoglicol surfatantes turbidimetria //Add para o html.
-
-//Cetonas
-//As cetonas , por sua vez, são compostos orgânicos que apresentam o grupo carbonila no meio da cadeia carbônica, ligado a dois grupos orgânicos. </s><s> Fórmula geral das cetonas R1 – CO – R2 R1 – e – R2 são grupos orgânicos que podem ser diferentes ou idênticos (como no caso da acetona). </s><s> Já no caso das cetonas, o sufixo utilizado é ona. </s><s> O nome químico da acetona, segundo a mesma nomenclatura, é propanona, em que o prefixo prop 4 3 2 1 CH3 CH CH CHO indica que a cadeia do composto apresenta três átomos de carbono.  Já nas cetonas é necessário indicar a posição da carbonila na cadeia carbônica, que pode variar. </s><s> Isso não ocorre no caso 1 5 4 3 2 CH3 CH CH CO CH3 da acetona (propanona), como vimos, porque a posição da carbonila, numa cetona com três átomos de carbono, só pode ser CH3 CH3 a posição 2. </s><s> Se a carbonila estivesse na posição 1, o composto Figura 1.53 seria um aldeído e não uma cetona, e seu nome seria propanal.
-
-//Digestor
-//Equipamento de agitação para determinação do índice de preparo com 2 ou 4 provas, regulado para girar a 50 - 60 rpm
-
-//etileno-glicol
-//1,2-etanodiol
-
-//Surfatantes
-//Os surfatantes são constituídos por uma parte hidrófila, geralmente iônica, e uma parte lipofílica formada por hidrocarbonetos com oito a dezoito átomos de carbono, linear ou ligeiramente ramificada, contendo, na maioria dos produtos comercializados, um anel benzênico substituindo alguns átomos de cadeia. 
-
-//Turbidimetria
-//quantificação em espectrofotômetro ou colorímetro a 660 nm, uma vez que neste comprimento de onda, a cor geralmente parda dos meios de cultura não interfere com os resultados
-
+//Generate this section 5 times, each one will be about a different theme, the only thing you'll need to change is the word "catalizador" and it should be replaced with "cetonas", " digestor", "etilenoglicol", "surfatantes" and "turbidimetria", each one on its section. //Add para o html.
 
 //The same prompt i've used to create the last file, but with this text "" inside the <h2> tag.
