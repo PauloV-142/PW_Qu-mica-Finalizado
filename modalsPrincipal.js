@@ -6,6 +6,9 @@ var densidadeM = document.getElementById("densidadeM");
 var solubilidadeM = document.getElementById("solubilidadeM");
 var titulacaoM = document.getElementById("titulacaoM");
 var alcanosM = document.getElementById("alcanosM");
+var aldeidosM = document.getElementById("aldeidosM");
+var acidosM = document.getElementById("acidosM");
+var balancaM = document.getElementById("balancaM");
 // Get the button that opens the modal
 var Atomo = document.getElementById("Atomo");
 var bicarbonatos = document.getElementById("bicarbonatos");
@@ -14,6 +17,9 @@ var densidade = document.getElementById("densidade");
 var solubilidade = document.getElementById("solubilidade");
 var titulacao = document.getElementById("titulacao");
 var alcanos = document.getElementById("alcanos");
+var aldeidos = document.getElementById("aldeidos");
+var acidos = document.getElementById("acidos");
+var balanca = document.getElementById("balanca");
 
 // Get the <span> element that closes the modal
 var close = document.getElementsByClassName("close")[0];
@@ -23,6 +29,9 @@ var close4 = document.getElementsByClassName("close")[3];
 var close5 = document.getElementsByClassName("close")[4];
 var close6 = document.getElementsByClassName("close")[5];
 var close7 = document.getElementsByClassName("close")[6];
+var close8 = document.getElementsByClassName("close")[7];
+var close9 = document.getElementsByClassName("close")[8];
+var close10 = document.getElementsByClassName("close")[9];
 
 // When the user clicks the button, open the modal 
 Atomo.onclick = function() {
@@ -74,11 +83,35 @@ titulacao.onclick = function() {
   }
 }
 alcanos.onclick = function() {
-  if (alcanos.style.display == "block") {
+  if (alcanosM.style.display == "block") {
     alcanosM.style.display = "none";
   }
   else if (alcanosM.style.display == "none" || alcanosM.style.display == "") {
     alcanosM.style.display = "block";
+  }
+}
+aldeidos.onclick = function() {
+  if (aldeidosM.style.display == "block") {
+    aldeidosM.style.display = "none";
+  }
+  else if (aldeidosM.style.display == "none" || aldeidosM.style.display == "") {
+    aldeidosM.style.display = "block";
+  }
+}
+acidos.onclick = function() {
+  if (acidosM.style.display == "block") {
+    acidosM.style.display = "none";
+  }
+  else if (acidosM.style.display == "none" || acidosM.style.display == "") {
+    acidosM.style.display = "block";
+  }
+}
+balanca.onclick = function() {
+  if (balancaM.style.display == "block") {
+    balancaM.style.display = "none";
+  }
+  else if (balancaM.style.display == "none" || balancaM.style.display == "") {
+    balancaM.style.display = "block";
   }
 }
 // When the user clicks on <span> (x), close the modal
@@ -90,6 +123,9 @@ function closeAll(){
   solubilidadeM.style.display = "none";
   titulacaoM.style.display = "none";
   alcanosM.style.display = "none";
+  aldeidosM.style.display = "none";
+  acidosM.style.display = "none";
+  balancaM.style.display = "none";
 }
 close.onclick = function(){
   closeAll();
@@ -110,6 +146,15 @@ close6.onclick = function(){
   closeAll();
 }
 close7.onclick = function(){
+  closeAll();
+}
+close8.onclick = function(){
+  closeAll();
+}
+close9.onclick = function(){
+  closeAll();
+}
+close10.onclick = function(){
   closeAll();
 }
 
@@ -136,5 +181,14 @@ window.onclick = function(event) {
   else if (event.target == alcanosM) {
     alcanosM.style.display = "none";
   }
-}
-//Os aldeídos são compostos orgânicos que apresentam o grupo carbonila na extremidade da cadeia.A numeração da cadeia dos aldeídos sempre começa da extremiCH3 CH3 dade que contém o grupo carbonila, por isso não é preciso indicar o 1.52 número do átomo de carbono que contém o grupo funcional.  
+  else if (event.target == aldeidosM) {
+    aldeidosM.style.display = "none";
+  }
+  else if (event.target == acidosM) {
+    acidosM.style.display = "none";
+  }
+  else if (event.target == balancaM) {
+    balancaM.style.display = "none";
+  }
+}//A balança de precisão permite determinar a massa de alguns poucos miligramas.
+//The same prompt i've used to create the last file, but with this text "" inside the <h2> tag.
